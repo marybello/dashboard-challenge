@@ -1,0 +1,419 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: hsl(0, 0%, 35%);
+    width: 100% vp !important;
+}
+#nav-bar{
+    width: 15%;
+    height:700px;
+    justify-content: left;
+    align-self: left;
+    margin: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    position: sticky;
+    left: 0;
+    top: 0;
+
+}
+.nav-list{
+    list-style-type: none;
+}
+.nav-list .nav-items{
+    width: 80% !important;
+    height: 40px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav-items:hover{
+    width: 80%;
+    height: 40px;
+    background-color: hsl(0, 0%, 50%) ;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.nav-list .nav-items a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 15px;
+}
+.container .nav-bar .picture img{
+    border-radius: 50%;
+    display: inline;
+}
+.picture{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.picture a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom:20px;
+    left: 10px;
+}
+.navigation{
+    width: 100%;
+    height: 50px;
+    background-color: hsl(0, 0%, 7%);
+}
+.main-content{
+    width: 80%;
+    display: inline-block;
+    background-color: hsl(234, 67%, 97%);
+    height: auto;
+    vertical-align: top;
+
+}
+.flex-content{
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+    background-color: #fff;
+    margin: 15px;
+    padding: 10px !important;
+    box-shadow: 5px 5px 5px rgba(0,0, 0, 0.2);
+}
+.flex-content p, .flex-content h3{
+    align-self: right;
+    align-content: right;
+    text-align: right !important;
+    margin-top: 10px;
+}
+
+.flex-content h3{
+    margin-bottom: 10px;
+}
+.flex-content aside{
+    width: 99%;
+    background-color:hsl(234, 67%, 97%);
+
+padding: 10px;
+margin-left: -7px !important;
+border-top-width: thick;
+    
+}
+.flex-content aside i{
+    margin-left: 5px;
+    margin-right: 10px !important;
+}
+.first-table{
+    width: 47%;
+    display: inline-block;
+    margin: 15px;
+}
+.second-table{
+    width: 45%;
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+}
+.second-table table{
+    background-color:hsl(0, 0%, 7%);
+    border-spacing: 2px;
+}
+.second-table table th{
+color:hsl(234, 67%, 90%);
+}
+.second-table table td{
+    color: white;
+}
+.second-table tr{
+    border: 1px solid hsl(234, 67%, 90%);
+}
+table, th, td {
+
+    border-collapse: collapse;
+    padding: 20px;
+  }
+  .first-table h3, .second-table h3{
+      text-align: center;
+      margin-bottom: 10px;
+  }
+  .first-table tr:nth-child(odd){
+      background-color: #fff;
+  }
+  .first-table tr:nth-child(odd):hover{
+      background-color: hsl(234, 67%, 97%);
+  }
+  .first-table button{
+      background-color: hsl(195, 100%, 40%);
+      color: white;
+      border: none;
+      width: 80px;
+      height: 30px;
+  }
+  .first-table  button:hover{
+      background-color: hsl(195, 100%, 20%);
+  }
+
+.second-table .approved{
+width:100px;
+height: 30px;
+background-color: hsl(138, 92%, 33%);
+color: white;
+border: none;
+}
+.second-table .pending{
+    width: 100px;
+    height: 30px;
+    background-color: hsl(0, 77%, 41%);
+    color: white;
+    border: none;
+}
+.second-table td{
+    width: 150px;
+}
+.first-ul{
+ list-style-type: none;  
+ text-align: center; 
+}
+.first-ul li{
+    display: inline;
+    background-color: white;
+    color: hsl(226, 100%, 40%);
+    margin: 1px;
+    padding: 10px;
+}
+.first-ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: hsl(226, 100%, 40%);
+    cursor: pointer;
+}
+.first-ul li a i{
+    font-size: 20px;
+    color: hsl(226, 100%, 40%);
+}
+.second-ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 15px;
+}
+.second-ul li{
+    display: inline;
+    background-color: #fff;
+    margin: 1px;
+    padding: 10px;
+}
+.second-ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: hsl(226, 100%, 40%);
+    cursor: pointer;
+}
+.convertion{
+width: 47%;
+display: inline-block;
+background-color: hsl(0, 0%, 7%);
+vertical-align: top;
+margin: 10px;
+padding: 20px;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+.convertion .boxes{
+    width: 99%;
+    height: 20px;
+    background-color: hsl(234, 67%, 97%);
+    border-radius: 2%;
+    margin-top: 10px;
+}
+.convertion h4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+
+}
+.convertion h2{
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.tasks{
+width: 47%;
+display: inline-block;
+color: hsl(0, 0%, 7%);
+}
+.tasks input, p, .icons {
+    display: inline-block;
+}
+.tasks .ishe{
+    padding: 20px 0px 20px 10px;
+    background-color: #fff;
+    margin: 10px;
+    margin-top: 20px;
+    border-left: 1px solid red;
+}
+.tasks p{
+ width: 75%;
+ margin-left: 20px;
+}
+.tasks i{
+    margin-left: 5px;
+    display: inline;
+}
+.comments{
+    width: 55%;
+    margin: 10px;
+    display: inline-block;
+}
+.comments .images{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px;
+
+}
+.comments .images button{
+    width: 90%;
+    background-color: hsl(0, 0%, 45%);
+    text-align: left;
+    padding: 5px;
+color: #fff;
+position: relative;
+border: none;
+border-radius: 2%;
+}
+
+.comments .images button img{
+    
+    display: inline;
+}
+.comments .images button p{
+    vertical-align: top;
+    margin: 15px;
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comments .images button:hover{
+    background-color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+.comments .images .dropdown{
+    display: none !important;
+    position: absolute;
+    background-color: white;
+    display: block;
+}
+.show{
+    display: block !important;
+}
+.status{
+    width:35%;
+    background-color: white;
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.status h2{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+.status .Abu{
+    text-align: center;
+    margin-bottom: 20px;
+   
+}
+.status .Abu a{
+    margin: 10px;
+    text-decoration: none;
+   
+}
+.status input, .status button{
+    width:90%;
+    height: 30px;
+    margin: 10px;
+    padding: 5px;
+    
+}
+.status aside{
+    display: inline-block;
+    background-color: hsl(0, 0%, 97%);
+    width: 32%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid hsl(0, 0%, 35%);
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: hsl(0, 0%, 97%);
+}
+footer ul{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+footer ul li{
+    display: inline;
+}
+footer ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+footer p{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 480px){
+ 
+    #nav-bar{
+        display: none;
+    }
+    
+    .flex-content{
+        display: block;
+        width: 80%;
+        padding: 20px !important;
+
+    }
+    .main-content{
+        width: 100%;
+        display: block;
+    }
+    .first-table{
+        width: 70%;
+        display: block;
+    }
+    .second-table{
+        width: 70%;
+        display:block;
+    }
+    .convertion{
+        width: 80%;
+        display: block;
+        }
+        .tasks{
+            width: 100%;
+            display: block;
+            }
+            .comments{
+                width: 100%;
+                display: block;}
+                .status{
+                    width:85%;
+                    display: block;
+                   
+                }
+
+
+}
